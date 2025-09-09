@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="session15.css">
+</head>
+<body>
+    <h1 style="color: aliceblue;"><u>Advanced Form Demo:</u></h1>
+   <form id="signupform">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+     <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="abc@gmail.com">
+       <label for="Password">Password</label>
+    <input type="text" id="Password" name="Password" placeholder="*********">
+    <label for="country">Country</label>
+    <select name="country" id="country">
+        <option value="">----Select---</option>
+        <option value="pk">Pakistan</option>
+        <option value="uk">united kingdom</option>
+    </select>
+    <label for="bio">Short bio:</label>
+    <textarea name="bio" id="bio" rows="3" placeholder="write something"></textarea>
+    <p><h4>Gender:</h4></p>
+    <label for="male">Male</label>
+     <input type="radio" name="Gender" id="male" value="male">
+    <label for="female">Female</label>
+    <input type="radio" name="Gender" id="female" value="female">
+    
+    <label for="cv">Upload CV (PDF only)</label>
+    <input type="file" name="CV" id="CV" accept="PDF only"> <br>
+    <input type="submit" value="Register">
+   </form>
+</body>
+</html>
